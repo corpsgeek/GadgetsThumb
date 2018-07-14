@@ -1,0 +1,23 @@
+{
+"name": "Gadget Thumb",
+"short_name": "GadgetsThumb",
+"display": "standalone",
+"start_url": ".",
+"background_color": "#536DFE",
+"description": "Open source project by Adetu Ridwan.",
+"lang": "en-US",
+"scope": "../CryptoExch/",
+"theme_color": "#1A237E",
+"icons": [
+    {
+      "src": "shekel.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+        "src": "shekel.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+]
+}

@@ -1,0 +1,105 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style-type: none;
+    margin: 0px;
+    background-color: #f8f9fa;
+    padding: 0px;
+}
+* {
+    box-sizing: border-box;
+}
+.ruw:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="cul-"] {
+    float: left;
+    padding: 15px;
+}
+/*For desktop view */
+.cul-1 {width: 8.33%;}
+.cul-2 {width: 16.66%;}
+.cul-3 {width: 25%;}
+.cul-4 {width: 33.33%;}
+.cul-5 {width: 41.66%;}
+.cul-6 {width: 50%;}
+.cul-7 {width: 58.33%;}
+.cul-8 {width: 66.66%;}
+.cul-9 {width: 75%;}
+.cul-10 {width: 83.33%;}
+.cul-11 {width: 91.66%;}
+.cul-12 {width: 100%;}
+/*End of desktop view*/
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="cul-"] {
+        width: 100%;
+    }
+    
+
+}
+header{
+    background-image: url('images/back.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.navbar-nav > li{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.brand{
+    width: 130px;
+    height: 50px;
+}
+.coverBtn{
+    text-align: center;
+}
+.convertBtn{
+ margin-right: auto;
+ margin-left: auto;   
+ display: block;
+ width: 50%;
+ height: 45px;
+ border-color: #7986CB;
+ background-color: #7986CB;
+}
+
+.conversionBack{
+    background-color: #3F51B5;
+    color: white;
+}
+.conversionSection{
+    margin: 20px;
+}
+.conversionCaption{
+    text-align: center;
+}
+
+.postCaption{
+    text-align: center;
+}
+footer{
+    margin-top: 40px;
+    background-color: #303F9F;
+    text-align: center;
+    height: 100px;
+    color: white;
+}
+
+.karma{
+    background-color: #303F9F;
+    color: white;
+}
+.cap1{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.cap2{
+    text-align: center;
+    color: white;
+    
+}
